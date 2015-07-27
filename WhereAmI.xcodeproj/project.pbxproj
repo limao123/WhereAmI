@@ -14,6 +14,7 @@
 		DAB72CCD1B5DECEA00851936 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB72CCC1B5DECEA00851936 /* Images.xcassets */; };
 		DAB72CD01B5DECEA00851936 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB72CCE1B5DECEA00851936 /* LaunchScreen.xib */; };
 		DAB72CDC1B5DECEA00851936 /* WhereAmITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB72CDB1B5DECEA00851936 /* WhereAmITests.m */; };
+		DAB72CE61B5DED0E00851936 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB72CE51B5DED0E00851936 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		DAB72CD51B5DECEA00851936 /* WhereAmITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereAmITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB72CDA1B5DECEA00851936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB72CDB1B5DECEA00851936 /* WhereAmITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereAmITests.m; sourceTree = "<group>"; };
+		DAB72CE51B5DED0E00851936 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB72CE61B5DED0E00851936 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		DAB72CB31B5DECEA00851936 = {
 			isa = PBXGroup;
 			children = (
+				DAB72CE51B5DED0E00851936 /* CoreLocation.framework */,
 				DAB72CBE1B5DECEA00851936 /* WhereAmI */,
 				DAB72CD81B5DECEA00851936 /* WhereAmITests */,
 				DAB72CBD1B5DECEA00851936 /* Products */,
